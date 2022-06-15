@@ -1,0 +1,90 @@
+
+  img{
+    max-width: 100%;
+  }
+  a{
+    color: inherit;
+    text-decoration: none;
+    transition: 0.4s;
+  }
+  ul li,
+  ol li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  button{
+    display: block;
+    border:none;
+    background: none;
+    cursor: pointer;
+    transition: .4s;
+  }
+
+  html{
+    box-sizing:border-box;
+  }
+  *, * ::before, *::after{
+    box-sizing: inherit
+  }
+  body{
+    color:black;
+    font-family: 'IM Fell Great Primer SC', serif;
+    }
+
+    header{
+        height: 100vh;
+    }
+
+.container{
+    width: 1120px;
+    margin: 0 auto;
+    padding: 0 5px;
+
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 38px;
+
+}
+
+.shop_packet:hover{
+    color: rgba(200, 164, 177, 1);
+    transition: .1s;
+    cursor: pointer;
+}
+.home_block{
+    position: absolute;
+    width: 427px;
+    height: 76px;
+    left: 260px;
+    top: 263px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: right;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+.carousel{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 256px;
+height: 402px;
+left: 819px;
+top: 263px;
+
+}
