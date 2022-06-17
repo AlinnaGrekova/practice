@@ -27,24 +27,25 @@
   *, * ::before, *::after{
     box-sizing: inherit
   }
-body{
+  body{
     color:black;
     font-family: 'IM Fell Great Primer SC', serif;
     }
 
-    header{
+    main_page{
         height: 100vh;
     }
 
 .container-xxl{
-    width: 1120px;
-    margin: 0 auto;
-    padding: 0 5px;
+    height: 100vh;
     align-items: center;
-
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1120px;
+    padding: 0 15px;
 }
 
-.wrapper{
+.header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -66,7 +67,7 @@ body{
 .header_logo{
   align-items:center;
 }
-/* конец шапки сайтa wrapper*/
+/* конец шапки сайтa */
 
 
 .h1_block{
@@ -74,8 +75,7 @@ body{
     width: 427px;
     height: 76px;
     left: 260px;
-    top: 263px;
-    
+    top: 250px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 200;
@@ -91,8 +91,6 @@ flex-direction: column;
 align-items: flex-start;
 padding: 0px;
 gap: 10px;
-
-position: absolute;
 width: 256px;
 height: 402px;
 left: 819px;
@@ -105,4 +103,57 @@ top: 300px;
   color: rgb(252, 252, 252);
   transition: .1s;
   cursor: pointer;
+
+}
+.btn btn-primary{
+  display: block;
+  border:none;
+  background: none;
+  cursor: pointer;
+  transition: .4s;
+}
+.card{
+  border:none;
+  max-width: 255px;
+  width:100%;
+  height: auto;
+  margin: 0 auto;
+}
+.card>img{
+width: 255px;
+height: 345px;
+left: 0px;
+top: 0px;
+}
+.card-title{
+  width: 256px;
+height: 19px;
+padding-top: 10px;
+padding-bottom: 10px;
+  font-family: 'IM FELL Great Primer SC';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0.3em;
+text-transform: uppercase;
+}
+.card-body>p{
+  width: 134px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 16px;
+line-height: 19px;
+text-transform: uppercase;
+
+color: #000000;
+}
+.carousel-control-prev-icon{
+  background-image:arrow_back_ios;
+}
+.new{
+  padding-top: 95px;
 }

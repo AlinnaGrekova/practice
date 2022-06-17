@@ -17,10 +17,11 @@
 
 </head>
 <body>
-
-    <header id="header" class="header">
-        <div class="container">
-            <div class="wrapper">
+    <!--главная страница class="main_page"-->
+    <header id="main_page" class="main_page">
+        <div class="container-xxl">
+            <!--шапка главной страницы(меню-бургер, логотип, корзина)-->
+            <div class="header">
                 <div class="burger_menu">
                         <span class="material-symbols-outlined">
                             menu
@@ -35,90 +36,92 @@
                         </span>
                 </div>
             </div>
-        </div>
-
-
-
+            <!--конец шапки профиля-->
         
-        <div class="container-xxl">
-                <section class="slider_h1"></section>
-                   <div class="row align-items-center">
-                   <div class="col-8">
-                    <div class="h1_block">
-                        <h1>ПОЧУВСТВУЙ СВОЮ КРАСОТУ</h1>
-                        <button class="bt_1">
-                            <img src="./img/bt_1.png">
-                        </button>
+        
+            <!--слайдер с карточками(взяла в бутстрап)-->
+            <div class="slider_h1">
+                <div class="row align-items-center">
+                    <div class="col-8">
+                        <div class="h1_block">
+                             <h1>ПОЧУВСТВУЙ СВОЮ КРАСОТУ</h1>
+                             <button class="bt_1">
+                                 <img src="./img/bt_1.png">
+                             </button>
+                        </div>
                     </div>
-                   </div>
-                    <div class="col-4">
-                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-                        <div class="carousel-indicators">
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        </div>
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <div class="row">
-                                <div class="col">
-                                    <div class="card" style="width: 255px; height: 402px; ">
-                                        <img src="./img/image 1.png" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                          <h5 class="card-title">the suit is beige</h5>
-                                          <a href="#" class="btn btn-primary">190$</a>
-                                        </div>
-                                      </div>
-                                </div>
-                              </div>
-                          </div>
-                          <div class="carousel-item">
-                            <div class="row">
-                                <div class="col">
-                                    <div class="card" style="width: 10rem;">
-                                        <img src="./img/image 1.png" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                          <h5 class="card-title">Card title</h5>
-                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                </div>
-                              </div>
-                          </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="col">
-                                    <div class="card" style="width: 10rem;">
-                                        <img src="./img/image 1.png" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                          <h5 class="card-title">Card title</h5>
-                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                     <div class="col-4">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                             <div class="carousel-indicators">
+                               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                             </div>
+                            <div class="carousel-inner">
+                               <div class="carousel-item active">
+                                 <div class="row justify-content-between">
+                                     <div class="col">
+                                         <div class="card w-100">
+                                             <img src="./img/image 1.png" class="card-img-top" >
+                                             <div class="card-body">
+                                               <h5 class="card-title">the suit is beige</h5>
+                                               <p>190$</p>
+                                             </div>
+                                         </div>
+                                     </div>
+                                 </div>
+                               </div>
+                               <div class="carousel-item">
+                                <div class="row justify-content-between">
+                                    <div class="col">
+                                        <div class="card w-100">
+                                            <img src="./img/image 1 (1).png" class="card-img-top" >
+                                            <div class="card-body">
+                                              <h5 class="card-title">the suit is beige</h5>
+                                              <p>190$</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
+                               </div>
+                             <div class="carousel-item">
+                                <div class="row justify-content-between">
+                                    <div class="col">
+                                        <div class="card w-100">
+                                            <img src="./img/image 1 (2).png" class="card-img-top" >
+                                            <div class="card-body">
+                                              <h5 class="card-title">the suit is beige</h5>
+                                              <p>190$</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                             </div>
+                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                               <span class="visually-hidden">Previous</span>
+                             </button>
+                             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                               <span class="visually-hidden">Next</span>
+                             </button>
                           </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>
-                     </div>
-                  </div>
+                    </div>
                  </div>
-            </section>
-        </div>
-          
-        
-        
-
-          
-     </header>
+            </div>
+            <div class="header">
+                <span class="material-symbols-outlined">
+                    language
+                    </span>
+             </div>
+             <div class="header">
+                <span class="material-symbols-outlined">
+                    arrow_back_ios  arrow_forward_ios
+                </span>
+             </div>
+        </div>    
+    </header>
 
      <section id= "new" class="new">
         <div class="container-xxl">
