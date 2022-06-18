@@ -17,9 +17,9 @@
 
 </head>
 <body>
+ <div class="container-xxl">
     <!--главная страница class="main_page"-->
     <header id="main_page" class="main_page">
-        <div class="container-xxl">
             <!--шапка главной страницы(меню-бургер, логотип, корзина)-->
             <div class="header">
                 <div class="burger_menu">
@@ -61,7 +61,7 @@
                                <div class="carousel-item active">
                                  <div class="row justify-content-between">
                                      <div class="col">
-                                         <div class="card w-100">
+                                         <div class="card w-100 h-100">
                                              <img src="./img/image 1.png" class="card-img-top" >
                                              <div class="card-body">
                                                <h5 class="card-title">the suit is beige</h5>
@@ -98,55 +98,86 @@
                                 </div>
                              </div>
                              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                               <span class="visually-hidden">Previous</span>
-                             </button>
-                             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                               <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                               <span class="visually-hidden">Next</span>
-                             </button>
+                                <span class="material-symbols-outlined" aria-hidden="true">
+                                    chevron_left
+                                    </span>
+                                <span class="visually-hidden">Previous</span>
+                              </button>
+                              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                    <span class="material-symbols-outlined" aria-hidden="true">
+                                        chevron_right
+                                        </span>
+                                <span class="visually-hidden">Next</span>
+                              </button>
                           </div>
                         </div>
                     </div>
                  </div>
             </div>
-            <div class="header">
+            <div class="Icons">
                 <span class="material-symbols-outlined">
                     language
                     </span>
              </div>
-             <div class="header">
-                <span class="material-symbols-outlined">
-                    arrow_back_ios  arrow_forward_ios
-                </span>
-             </div>
-        </div>    
+           
     </header>
+    <!--Конец первого блока-->
+
 
      <section id= "new" class="new">
-        <div class="container-xxl">
-            ffff
+        <div class="new_content">
+            <div class="p_new">
+                <p>NEW</p>
+            </div>
+            <!--Карточки для блока new-->
+            <div class="grid">
+                <div class="card_new">
+                <div class="g-col-6">
+                    <div class="card w-100 h-50">
+                    <img src="./img/new1.png" class="card-img-top" >
+                    <div class="card-body">
+                      <h5 class="card-title">the suit is beige</h5>
+                      <p class="card-text">190$</p>
+                    </div>
+                  </div></div>
+                <div class="g-col-6">
+                    <div class="card w-100 h-50" >
+                    <img src="./img/new2.png" class="card-img-top" >
+                    <div class="card-body">
+                      <h5 class="card-title">the suit is beige</h5>
+                      <p class="card-text">190$</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="g-col-6">
+                    <div class="card w-100 h-50">
+                    <img src="./img/new3.png" class="card-img-top" >
+                    <div class="card-body">
+                      <h5 class="card-title">the suit is beige</h5>
+                      <p class="card-text">190$</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>              
         </div>
      </section>
 
      <section id= "mail" class="mail">
-        <div class="container-xxl">
-            dddss
-        </div>
+       
+
      </section>
 
      <section id= "info" class="info">
-        <div class="container-xxl">
+
             ssss
-        </div>
+
      </section>
 
      <footer id=" footer" class="footer">
-        <div class="container-xxl">
-            fdssa
-        </div>
      </footer>
-     <!-- JavaScript Bundle with Popper -->
+</div>
+        <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
